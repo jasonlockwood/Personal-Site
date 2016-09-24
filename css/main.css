@@ -42,7 +42,7 @@ textarea {
 }
 
 html {
-    
+
 }
 
 /*
@@ -157,7 +157,7 @@ i {
 a {
   text-decoration: none;
   color: #777c83;
-  border-bottom: 2px solid #ecedee;
+  border-bottom: 2px solid #E8ECF1;
 }
 
 a:hover{
@@ -190,7 +190,7 @@ body {
   margin: 0;
   padding: 0;
   height:100%;
-  background:#fff;
+  background:#EDF0F2;
   text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 
@@ -201,7 +201,6 @@ body {
 
 #site-container{
   height:100%;
-  background: #FFF;
 }
 
 #bar{
@@ -211,7 +210,7 @@ body {
   top:0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2d639+0,f66b2a+100 */
   background: #777c83; /* Old browsers */
-  
+
 }
 
 #top-container{
@@ -334,14 +333,14 @@ header{
 
 #logo{
   float:left;
-  font-size: 18px;
+  font-size: 21px;
   padding:30px 0 30px 30px;
 
 }
 
 #logo h1{
-  font-size: 18px;
-  line-height: 12px;
+  font-size: 21px;
+  line-height: 18px;
 }
 
 #logo span{
@@ -361,7 +360,7 @@ section p{
   color: #495059;
   margin:0;
   padding:0 0 30px 0;
-  width:75%;
+  width:100%;
 }
 
 
@@ -376,7 +375,7 @@ section p{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
 
-   min-width - If [device width] is greater than or equal to [specified #], then do {...}" 
+   min-width - If [device width] is greater than or equal to [specified #], then do {...}"
    max-width - If [device width] is less than or equal to [specified #], then do {...}"
    ========================================================================== */
 
@@ -395,7 +394,7 @@ section p{
   #circle-me{
     float:none;
   }
-  
+
   #logo{
   padding:40px 0 0 0;
   }
