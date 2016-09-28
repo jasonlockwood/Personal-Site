@@ -1,4 +1,16 @@
 @font-face {
+    font-family: 'Circular';
+    src:url('fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src:url('fonts/CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'JLsans';
     src: url('fonts/JLsans/JLsans-bold.eot');
     src: url('fonts/JLsans/JLsans-bold.eot?#iefix') format('embedded-opentype'),
@@ -125,44 +137,34 @@ textarea {
 
 
 h1{
-    font-family: 'JLsans';
+    font-family: 'Circular';
     font-weight: bold;
     font-size: 21px;
     letter-spacing: .07em;
-    color: #495059;
+    color: #434343;
     margin:0;
 
 }
 
-h2{
-    font-family: 'JLsans';
-    font-size: 14px;
-    letter-spacing: .07em;
-    font-weight: normal;
-    color: #b8bfc4;
-}
 
 p{
-    font-family: 'JL-mono';
+    font-family: 'Circular';
     font-size: 12px;
     letter-spacing: .05em;
-    color: #495059;
+    color: #434343;
 
 }
 
-i {
-    color:#b8bfc4;
-}
 
 a {
   text-decoration: none;
   color: #777c83;
-  border-bottom: 2px solid #E8ECF1;
+  border-bottom: 2px solid ##EDF0F2;
 }
 
 a:hover{
-  color:#ffc200;
-  border-bottom: 2px solid #ffc200;
+  color:rgba(29, 84, 207, 1);
+  border-bottom: 2px solid rgba(29, 84, 207, 1);
   -webkit-transition: color .5s ease;
     -moz-transition: color .5s ease;
     -o-transition: color .5s ease;
@@ -203,18 +205,9 @@ body {
   height:100%;
 }
 
-#bar{
-  height: 3px;
-  width:100%;
-  position: fixed;
-  top:0;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2d639+0,f66b2a+100 */
-  background: #777c83; /* Old browsers */
-
-}
-
 #top-container{
   width:80%;
+  max-width:960px;
   margin:0 auto;
 }
 
@@ -320,7 +313,7 @@ header{
 #circle-me{
  width: 100px;
  height: 100px;
- background-image: url('../img/beard.jpg');
+ background-image: url('../img/avatar.jpg');
  background-size: cover;
  border-radius: 50px;
  -webkit-border-radius: 50px;
@@ -330,37 +323,27 @@ header{
 
 }
 
-
-#logo{
-  float:left;
-  font-size: 21px;
-  padding:30px 0 30px 30px;
-
+#circle-me:hover{
+  background:linear-gradient(-45deg, rgba(29, 84, 207, 0.95) 0%, rgba(55, 169, 255, 0.95) 100%), url('../img/avatar.jpg');
+  background-size: cover;
 }
-
-#logo h1{
-  font-size: 21px;
-  line-height: 18px;
-}
-
-#logo span{
-  font-family:'JLsans';
-  color:#777c83;
-  text-decoration: none;
-  letter-spacing: .03em;
-}
-
 
 section p{
   clear:both;
-  font-family:'JLsans';
-  font-size: 30px;
-  line-height: 42px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 48px;
   letter-spacing: 0em;
   color: #495059;
   margin:0;
   padding:0 0 30px 0;
   width:100%;
+}
+
+section p.connect{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
 }
 
 
@@ -380,7 +363,7 @@ section p{
    ========================================================================== */
 
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 568px) {
 
 section p{
     font-size:24px;
@@ -391,13 +374,6 @@ section p{
 
 @media only screen and (max-width: 458px){
 
-  #circle-me{
-    float:none;
-  }
-
-  #logo{
-  padding:40px 0 0 0;
-  }
 }
 
 
@@ -408,9 +384,6 @@ section p{
 
 @media only screen and (max-width: 900px) {
 
-  section p{
-    width:100%;
-  }
 
 }
 
