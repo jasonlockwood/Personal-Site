@@ -102,11 +102,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+body{
+  font-family: 'Circular';
+}
 
 
 h1{
-    font-family: 'Circular';
     font-weight: bold;
     font-size: 21px;
     letter-spacing: .07em;
@@ -117,7 +118,6 @@ h1{
 
 
 p{
-    font-family: 'Circular';
     font-size: 12px;
     letter-spacing: .05em;
     color: #434343;
@@ -140,10 +140,6 @@ a:hover{
   transition: color .5s ease;
 }
 
-a.appeagle:hover{
-  color:#229dd8;
-  border-bottom: 2px solid #229dd8;
-}
 a.twitter:hover{
   color:#1da1f2;
   border-bottom: 2px solid #1da1f2;
@@ -291,7 +287,7 @@ header{
 }
 
 #circle-me:hover{
-  
+
   background:linear-gradient(-45deg, rgba(29, 84, 207, 0.95) 0%, rgba(55, 169, 255, 0.95) 100%);
   background-size: cover;
   -webkit-animation: fade 2s normal;
