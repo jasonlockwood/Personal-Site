@@ -290,10 +290,10 @@ header{
 
   background:linear-gradient(-45deg, rgba(29, 84, 207, 0.95) 0%, rgba(55, 169, 255, 0.95) 100%);
   background-size: cover;
-  -webkit-animation: fade 2s normal;
-	-moz-animation: fade 2s normal;
-	-o-animation: fade 2s normal;
-	animation: fade 2s normal;
+  -webkit-animation: fade .8s normal;
+	-moz-animation: fade .8s normal;
+	-o-animation: fade .8s normal;
+	animation: fade .8s normal;
 }
 
 section p{
