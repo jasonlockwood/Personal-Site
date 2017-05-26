@@ -124,14 +124,13 @@ p{
 
 }
 
-
 a {
   text-decoration: none;
   color: #777c83;
-  border-bottom: 2px solid ##EDF0F2;
 }
 
-a:hover{
+
+a.link:hover{
   color:rgba(29, 84, 207, 1);
   border-bottom: 2px solid rgba(29, 84, 207, 1);
   -webkit-transition: color .5s ease;
@@ -284,16 +283,22 @@ header{
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   float:left;
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
 }
 
 #circle-me:hover{
 
-  background:linear-gradient(-45deg, rgba(29, 84, 207, 0.95) 0%, rgba(55, 169, 255, 0.95) 100%);
-  background-size: cover;
-  -webkit-animation: fade .8s normal;
-	-moz-animation: fade .8s normal;
-	-o-animation: fade .8s normal;
-	animation: fade .8s normal;
+  /*background:linear-gradient(-45deg, rgba(29, 84, 207, 0.95) 0%, rgba(55, 169, 255, 0.95) 100%);*/
+  /*background-size: cover;*/
+  opacity: .6;
+  -webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: : opacity .3s ease-in-out;
 }
 
 section p{
