@@ -1,63 +1,63 @@
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Semibold.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Semibold.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Semibold.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Bold.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Bold.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Bold.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Light.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Light.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Light.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Clear.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Clear.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Clear.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Clear.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Black.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Black.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Black.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Medium.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Medium.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Medium.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Regular.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Regular.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Regular.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Beausite Classic Trial';
-    src: url('BeausiteClassicTrial-Ultrablack.woff2') format('woff2'),
-        url('BeausiteClassicTrial-Ultrablack.woff') format('woff');
+    src: url('../fonts/BeausiteClassicTrial-Ultrablack.woff2') format('woff2'),
+        url('../fonts/BeausiteClassicTrial-Ultrablack.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
