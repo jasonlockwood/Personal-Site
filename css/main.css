@@ -1,14 +1,68 @@
 @font-face {
-    font-family: 'Circular';
-    src:url('fonts/CircularStd-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Semibold.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Circular';
-    src:url('fonts/CircularStd-Book.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Bold.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Light.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Clear.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Clear.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Black.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Medium.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Regular.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beausite Classic Trial';
+    src: url('BeausiteClassicTrial-Ultrablack.woff2') format('woff2'),
+        url('BeausiteClassicTrial-Ultrablack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -103,7 +157,7 @@ textarea {
    ========================================================================== */
 
 body{
-  font-family: 'Circular';
+  font-family: 'Beausite Classic Trial';
 }
 
 
@@ -255,6 +309,13 @@ header {
 	-o-animation: fade 2s, shift 1.5s normal;
 	animation: fade 2s, shift 1.5s normal;
 }
+.status{
+-webkit-animation: fade 2s, shift 1.75s normal;
+-moz-animation: fade 2s, shift 1.75s normal;
+-o-animation: fade 2s, shift 1.75s normal;
+animation: fade 2s, shift 1.75s normal;
+}
+
 .connect {
 	-webkit-animation: fade 2s, shift 2s normal;
 	-moz-animation: fade 2s, shift 2s normal;
@@ -301,6 +362,26 @@ header{
 	transition: : opacity .3s ease-in-out;
 }
 
+#circle-me:hover > .twitter-icon{
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: : opacity .3s ease-in-out;
+}
+
+.twitter-icon{
+    display:flex;
+    height:inherit;
+    background-image: url(../img/twitter-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-color: rgba(29, 161, 242, .75);
+    opacity: 0;
+    border-radius: 50%;
+}
+
 section p{
   clear:both;
   font-weight: bold;
@@ -311,6 +392,10 @@ section p{
   margin:0;
   padding:0 0 30px 0;
   width:100%;
+}
+
+section p.status{
+  font-weight: normal;
 }
 
 section p.connect{
