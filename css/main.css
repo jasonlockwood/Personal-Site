@@ -323,11 +323,6 @@ animation: fade 2s, shift 1.75s normal;
 	animation: fade 2s, shift 2s normal;
 }
 
-
-
-
-
-
 header{
   display: inline-block;
   height: 100%;
@@ -404,17 +399,8 @@ section p.connect{
   line-height: 28px;
 }
 
-
-
-
-
-
-
-
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+    Media Queries for Responsive Design.
 
    min-width - If [device width] is greater than or equal to [specified #], then do {...}"
    max-width - If [device width] is less than or equal to [specified #], then do {...}"
@@ -433,8 +419,12 @@ section p{
 @media only screen and (min-width: 375px) {
 
 section p{
-    font-size:22px;
+    font-size:21px;
     line-height: 34px;
+  }
+
+  section p.connect{
+      font-size:15px;
   }
 
 }
