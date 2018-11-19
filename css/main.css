@@ -164,7 +164,7 @@ body {
   background:#EDF0F2;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Beausite Classic Trial';
+  font-family: 'Beausite Classic Trial', -apple-system, BlinkMacSystemFont, sans-serif;
 
 }
 
