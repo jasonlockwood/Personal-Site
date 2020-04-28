@@ -1,0 +1,6 @@
+[01-Aug-2018 23:36:51 America/New_York] PHP Notice:  Undefined index: name in /home/jasoovlu/public_html/process.php on line 14
+[01-Aug-2018 23:36:51 America/New_York] PHP Notice:  Undefined index: email in /home/jasoovlu/public_html/process.php on line 15
+[01-Aug-2018 23:36:51 America/New_York] PHP Notice:  Undefined index: telephone in /home/jasoovlu/public_html/process.php on line 16
+[01-Aug-2018 23:36:51 America/New_York] PHP Notice:  Undefined index: enquiry in /home/jasoovlu/public_html/process.php on line 17
+[01-Aug-2018 23:36:51 America/New_York] PHP Notice:  Undefined index: message in /home/jasoovlu/public_html/process.php on line 18
+[01-Aug-2018 23:36:51 America/New_York] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/jasoovlu/public_html/process.php on line 81
